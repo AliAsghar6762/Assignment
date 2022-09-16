@@ -2,22 +2,22 @@
 //using namespace std;
 //int main()
 //{
-//	float lw, lb, wb, ww, ld, wd, l, w, h, a;
+//	float lwindow, lbook, wbook, wwindow, ldoor, wdoor, length, width, height, area;
 //	cout << "Enter length and width of Windows\n";
-//	cin >> lw;
-//	cin >> ww;
+//	cin >> lwindow;
+//	cin >> wwindow;
 //	cout << "Enter length and width of doors\n";
-//	cin >> ld;
-//	cin >> wd;
+//	cin >> ldoor;
+//	cin >> wdoor;
 //	cout << "Enter the length and width of bookshelfs\n";
-//	cin >> lb;
-//	cin >> wb;
+//	cin >> lbook;
+//	cin >> wbook;
 //	cout << "Enter length width and height of walls\n";
-//	cin >> l;
-//	cin >> w;
-//	cin >> h;
-//	a = 2 * ((h * w) + (l * h)) - (ld * wd) - 2 * (lw * ww) - (lb * wb);
-//	cout << "Paint needed\n" << a / 120;
+//	cin >> length;
+//	cin >> width;
+//	cin >> height;
+//	area = 2 * ((height * width) + (length * height)) - (ldoor * wdoor) - 2 * (lwindow * wwindow) - (lbook * wbook);
+//	cout << "Paint needed\n" << area / 120;
 //
 //	system("pause");
 //	return 0;
