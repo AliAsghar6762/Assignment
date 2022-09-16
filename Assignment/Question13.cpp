@@ -4,17 +4,17 @@
 //int main()
 //{
 //	
-//	float I, T,P,R,A;
+//	float interest,time,principal,rate,amount;
 //	cout << "Enter the principal amount\n";
-//	cin >> P;
+//	cin >> principal;
 //	cout << "Enter the interest rate\n";
-//	cin >> R;
+//	cin >> rate;
 //	cout << "Enter the time\n";
-//	cin >> T;
-//	A = P * pow((1 + R / 100), T);
-//	I = A - P;
-//	cout << "Interest is\n" << I;
-//	cout << "\nTotal amount is\n" << A;
+//	cin >> time;
+//	amount = principal * pow((1 + rate / 100), time);
+//	interest = amount - principal;
+//	cout << "Interest is\n" << interest;
+//	cout << "\nTotal amount is\n" << amount;
 //
 //
 //	system("pause");
