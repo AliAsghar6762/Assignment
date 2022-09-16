@@ -6,9 +6,9 @@
 //int main()
 //{
 //	const float pi = 3.142;
-//	float a;
+//	float a; \\a is angle
 //	cout << "enter radian\n";
-//	cin >> a;
+//	cin >> a; 
 //	cout << fixed;
 //	cout << setprecision(4);
 //	cout <<"tan(a)=" << tan(a) << "\n";
