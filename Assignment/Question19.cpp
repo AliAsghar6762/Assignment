@@ -2,24 +2,24 @@
 //using namespace std;
 //int main()
 //{
-//	float lw, lb, wb, ww, ld, wd, l, w, h, a,p ; 
+//	float lwindow, lbook, wbook, wwindow, ldoor, wdoor, length, width, height, area,paint;
 //	cout << "Enter length and width of Windows\n";
-//	cin >> lw;
-//	cin >> ww;
+//	cin >> lwindow;
+//	cin >> wwindow;
 //	cout << "Enter length and width of doors\n";
-//	cin >> ld;
-//	cin >> wd;
+//	cin >> ldoor;
+//	cin >> wdoor;
 //	cout << "Enter the length and width of bookshelfs\n";
-//	cin >> lb;
-//	cin >> wb;
+//	cin >> lbook;
+//	cin >> wbook;
 //	cout << "Enter length width and height of walls\n";
-//	cin >> l;
-//	cin >> w;
-//	cin >> h;
-//	cout << "Enter the area that can be painted with a gallon\n";
-//	cin >> p;
-//	a = 2 * ((h * w) + (l * h)) - (ld * wd) - 2 * (lw * ww) - (lb * wb);
-//	cout << "Paint needed\n" << a / p;
+//	cin >> length;
+//	cin >> width;
+//	cin >> height;
+//  cout<<"Enter the amount of area a gallon can paint";
+//  cin>>paint;
+//	area = 2 * ((height * width) + (length * height)) - (ldoor * wdoor) - 2 * (lwindow * wwindow) - (lbook * wbook);
+//	cout << "Paint needed\n" << area / paint;
 //
 //	system("pause");
 //	return 0;
